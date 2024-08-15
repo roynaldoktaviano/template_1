@@ -4,8 +4,7 @@ let btn = document.querySelector('#btn-opn')
 let cover = document.querySelector('#open')
 
 btn.addEventListener('click', ()=> {
-    cover.style.height = '0px'
-    cover.style.opacity = '0'
+    cover.remove();
     document.body.classList.remove('overflow-hidden');
 }) 
 
