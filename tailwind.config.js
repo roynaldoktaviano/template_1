@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}","./**/*.{html,js}"],
   theme: {
     fontFamily: {
       'prata': ["Prata"],
@@ -19,7 +19,7 @@ module.exports = {
         }
       },
       animation:{
-        move: 'move 10s ease-in-out infinite'
+        move: 'move 16s ease-in-out infinite'
       }
     },
   },
