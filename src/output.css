@@ -766,8 +766,12 @@ video {
   margin-top: 1.5vh;
 }
 
-.mt-\[120vw\]{
-  margin-top: 120vw;
+.mt-\[100vw\]{
+  margin-top: 100vw;
+}
+
+.mt-\[10vh\]{
+  margin-top: 10vh;
 }
 
 .mt-\[14vw\]{
@@ -808,10 +812,6 @@ video {
 
 .mt-\[7vh\]{
   margin-top: 7vh;
-}
-
-.mt-\[100vw\]{
-  margin-top: 100vw;
 }
 
 .box-border{
@@ -926,12 +926,12 @@ video {
   height: 100vh;
 }
 
-.w-\[60vw\]{
-  width: 60vw;
+.w-\[20vw\]{
+  width: 20vw;
 }
 
-.w-\[70vw\]{
-  width: 70vw;
+.w-\[80vw\]{
+  width: 80vw;
 }
 
 .w-\[90vw\]{
@@ -952,6 +952,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[50vw\]{
+  width: 50vw;
 }
 
 .flex-shrink{
