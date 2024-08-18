@@ -10,11 +10,11 @@ module.exports = {
     extend: {
       keyframes: {
         'move' : {
-          '0%' : {transform: 'translate(-30vw, 0vw)'},
+          '0%' : {transform: 'translate(30vw, -1vw)'},
           '25%' : {transform: 'translate(6vw, -3vw)'},
-          '50%' : {transform: 'translate(30vw, -1vw)'},
+          '50%' : {transform: 'translate(-30vw, 0vw)'},
           '75%' : {transform: 'translate(6vw, -3vw)'},
-          '100%' : {transform: 'translate(-30vw, 0vw)'},
+          '100%' : {transform: 'translate(30vw, -1vw)'},
 
         }
       },

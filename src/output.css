@@ -766,14 +766,6 @@ video {
   margin-top: 1.5vh;
 }
 
-.mt-\[100vw\]{
-  margin-top: 100vw;
-}
-
-.mt-\[10vh\]{
-  margin-top: 10vh;
-}
-
 .mt-\[14vw\]{
   margin-top: 14vw;
 }
@@ -796,6 +788,10 @@ video {
 
 .mt-\[4vw\]{
   margin-top: 4vw;
+}
+
+.mt-\[50vh\]{
+  margin-top: 50vh;
 }
 
 .mt-\[5vh\]{
@@ -926,10 +922,6 @@ video {
   height: 100vh;
 }
 
-.w-\[20vw\]{
-  width: 20vw;
-}
-
 .w-\[80vw\]{
   width: 80vw;
 }
@@ -952,10 +944,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[50vw\]{
-  width: 50vw;
 }
 
 .flex-shrink{
@@ -1020,7 +1008,7 @@ video {
 
 @keyframes move{
   0%{
-    transform: translate(-30vw, 0vw);
+    transform: translate(30vw, -1vw);
   }
 
   25%{
@@ -1028,7 +1016,7 @@ video {
   }
 
   50%{
-    transform: translate(30vw, -1vw);
+    transform: translate(-30vw, 0vw);
   }
 
   75%{
@@ -1036,7 +1024,7 @@ video {
   }
 
   100%{
-    transform: translate(-30vw, 0vw);
+    transform: translate(30vw, -1vw);
   }
 }
 
@@ -2010,16 +1998,16 @@ video {
   background-image: url('../assets/bbg-03.jpg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/bg-01\.jpg\'\)\]{
-  background-image: url('../assets/bg-01.jpg');
-}
-
 .bg-\[url\(\'\.\.\/assets\/bgb-03\.jpg\'\)\]{
   background-image: url('../assets/bgb-03.jpg');
 }
 
 .bg-\[url\(\'\.\.\/assets\/bgg-03\.png\'\)\]{
   background-image: url('../assets/bgg-03.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/neew-01\.jpg\'\)\]{
+  background-image: url('../assets/neew-01.jpg');
 }
 
 .decoration-slice{
@@ -2942,6 +2930,10 @@ video {
     margin-top: 4vw;
   }
 
+  .lg\:mt-\[20vw\]{
+    margin-top: 20vw;
+  }
+
   .lg\:h-\[10vw\]{
     height: 10vw;
   }
@@ -2962,16 +2954,20 @@ video {
     width: 40vw;
   }
 
+  .lg\:w-\[25vw\]{
+    width: 25vw;
+  }
+
   .lg\:flex-row{
     flex-direction: row;
   }
 
-  .lg\:bg-\[url\(\'\.\.\/assets\/bg-02\.jpg\'\)\]{
-    background-image: url('../assets/bg-02.jpg');
-  }
-
   .lg\:bg-\[url\(\'\.\.\/assets\/bgg-03\.png\'\)\]{
     background-image: url('../assets/bgg-03.png');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/dd-03\.jpg\'\)\]{
+    background-image: url('../assets/dd-03.jpg');
   }
 
   .lg\:bg-contain{
